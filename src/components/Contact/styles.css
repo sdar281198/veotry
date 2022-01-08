@@ -1,0 +1,65 @@
+.divform{
+    width: 100%;
+    padding-top: 90px;
+}
+.divform form{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 10px;
+    padding: 40px;
+}
+.form p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.boton-form{
+    width: 50%;
+    margin: auto;
+    height: 40px;
+    margin-top: 20px;
+}
+.divform form label{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.divform form input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+.divform form input:focus{
+    border:1px solid skyblue;
+}
+.divform form textarea{
+    outline: none;
+    border:none;
+}
+.divform form textarea:focus{
+    border:1px solid skyblue;
+}
+.divform form button{
+    border: none;
+    border-radius: 10px;
+    transition: all 500ms;
+}
+.divform form button:hover{
+    background: linear-gradient(81deg, #1472ba 0%, #1472ba 13%, #25aee4 86%, #25aee4 100%);
+    color: white;
+    transition: all 500ms;
+    cursor: pointer;
+}
+/*media*/
+@media (max-width:455px) {
+    .form{
+        width: 90%!important;
+    }
+    
+}
